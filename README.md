@@ -36,7 +36,7 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- URL do site ao vivo: [Add live site URL here](https://your-live-site-url.com)
+- URL do site ao vivo: [https://viiniscript.github.io/interactive-rating](https://viiniscript.github.io/interactive-rating)
 
 
 ### Tecnologias
