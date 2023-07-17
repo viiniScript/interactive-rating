@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <title>Interactive rating component</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+  <main>
+    <article class="card card-rating" data-card-rating>
+      <div class="container-img background-circle">
+        <img src="./images/icon-star.svg" alt="Icon star">
+      </div>
+      <h1>How did we do?</h1>
+      <p>Please let usknow we did with your support request. All feedback is appreciated to help us improve our
+        offering!</p>
+      <div class="rating" data-rating>
+        <span class="rating-number background-circle" data-rating-number>1</span>
+        <span class="rating-number background-circle" data-rating-number>2</span>
+        <span class="rating-number background-circle" data-rating-number>3</span>
+        <span class="rating-number background-circle" data-rating-number>4</span>
+        <span class="rating-number background-circle" data-rating-number>5</span>
+      </div>
+      <a href="#" class="button-submit" data-submit-button>Submit</a>
+    </article>
+
+    <article class="card submited-rating" data-submited-rating>
+      <figure class="container-thankyou-img">
+        <img src="./images/illustration-thank-you.svg" alt="Card submited rating" class="thankyou-img">
+      </figure>
+      <p class="chose-rating" data-chose-rating></p>
+      <h2>Thank you!</h2>
+      <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+    </article>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
